@@ -140,7 +140,7 @@ private func makeResult() {
     makeCalculation(operations: currentOperation)
 }
 
-func acAction() {
+private func acAction() {
     isRunning = true
     currentNumber = "0"
     result = ""
