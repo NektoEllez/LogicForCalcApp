@@ -141,7 +141,7 @@ private func makeResult() {
 }
 
 private func acAction() {
-    isRunning = true
+    isRunning = false
     currentNumber = "0"
     result = ""
     currentOperation = Operations.noAction
